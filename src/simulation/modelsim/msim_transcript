@@ -12,32 +12,32 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src {C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:26:39 on Sep 23,2020
+# Start time: 21:01:31 on Sep 23,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src" C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v 
 # -- Compiling module sum1bcc
 # 
 # Top level modules:
 # 	sum1bcc
-# End time: 20:26:39 on Sep 23,2020, Elapsed time: 0:00:00
+# End time: 21:01:31 on Sep 23,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src {C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/Sum4bcc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:26:39 on Sep 23,2020
+# Start time: 21:01:31 on Sep 23,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src" C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/Sum4bcc.v 
 # -- Compiling module Sum4bcc
 # 
 # Top level modules:
 # 	Sum4bcc
-# End time: 20:26:39 on Sep 23,2020, Elapsed time: 0:00:00
+# End time: 21:01:31 on Sep 23,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src {C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/testbech.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:26:39 on Sep 23,2020
+# Start time: 21:01:31 on Sep 23,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src" C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/testbech.v 
 # -- Compiling module testbench
 # ** Error: (vlog-13069) C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/testbech.v(26): near "end": syntax error, unexpected end.
-# End time: 20:26:40 on Sep 23,2020, Elapsed time: 0:00:01
+# End time: 21:01:32 on Sep 23,2020, Elapsed time: 0:00:01
 # Errors: 1, Warnings: 0
 # ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
 # Error in macro ./Sum4bcc_run_msim_rtl_verilog.do line 11
@@ -46,7 +46,7 @@
 # "vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src {C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc..."
 vsim work.Sum4bcc
 # vsim work.Sum4bcc 
-# Start time: 20:26:45 on Sep 23,2020
+# Start time: 21:10:06 on Sep 23,2020
 # Loading work.Sum4bcc
 # Loading work.sum1bcc
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Ci'. The port definition is at: C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v(1).
@@ -56,12 +56,9 @@ sim:/Sum4bcc/xi \
 sim:/Sum4bcc/yi \
 sim:/Sum4bcc/co \
 sim:/Sum4bcc/zi
+run
 force -freeze sim:/Sum4bcc/xi 1 0, 0 {5 ps} -r 10
 force -freeze sim:/Sum4bcc/yi 1 0, 0 {5 ps} -r 10
 run
-force -freeze {sim:/Sum4bcc/xi[3]} 1 0
-force -freeze {sim:/Sum4bcc/xi[2]} 1 0
-force -freeze {sim:/Sum4bcc/xi[0]} 0 0
-run
-# End time: 20:30:14 on Sep 23,2020, Elapsed time: 0:03:29
+# End time: 21:13:26 on Sep 23,2020, Elapsed time: 0:03:20
 # Errors: 0, Warnings: 1

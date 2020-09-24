@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/simulation/modelsim
 vsum1bcc
-Z1 !s110 1600910799
+Z1 !s110 1600912891
 !i10b 1
 !s100 kbd>86O=0<2:dcRSLWeg_0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1600910799.000000
+Z5 !s108 1600912891.000000
 !s107 C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src|C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v|
 !i113 1

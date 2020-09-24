@@ -14,5 +14,8 @@ Al hacer la comprobación del funcionamiento, es absolutamente correcto como se 
 
 ![Sumador1Bit](https://github.com/unal-edigital1-lab/lab00-fzambranoc/blob/master/Figuras/Sumador1Bit.PNG)
 
+Al hacer la implementación del sumador de 4 bits
+
+![Sumador4BitsWTB](https://github.com/unal-edigital1-lab/lab00-fzambranoc/blob/master/Figuras/Sumador4BitsWTB.PNG)
 
 ![Sumador4Bits](https://github.com/unal-edigital1-lab/lab00-fzambranoc/blob/master/Figuras/Sumador4Bits.PNG)
