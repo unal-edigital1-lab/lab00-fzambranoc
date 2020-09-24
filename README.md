@@ -14,8 +14,10 @@ Al hacer la comprobación del funcionamiento, es absolutamente correcto como se 
 
 ![Sumador1Bit](https://github.com/unal-edigital1-lab/lab00-fzambranoc/blob/master/Figuras/Sumador1Bit.PNG)
 
-Al hacer la implementación del sumador de 4 bits
+Al hacer la implementación del sumador de 4 bits es posible comprobar que la suma sigue siendo correcta, después de definir unos parámetros iniciales.
 
 ![Sumador4BitsWTB](https://github.com/unal-edigital1-lab/lab00-fzambranoc/blob/master/Figuras/Sumador4BitsWTB.PNG)
+
+Finalmente al incluir el testbrench dentro de la simulación obtenemos:
 
 ![Sumador4Bits](https://github.com/unal-edigital1-lab/lab00-fzambranoc/blob/master/Figuras/Sumador4Bits.PNG)
