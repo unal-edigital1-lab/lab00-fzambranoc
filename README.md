@@ -13,3 +13,6 @@ Dentro de las líneas de código, se indentifican claramente las entradas, salid
 Al hacer la comprobación del funcionamiento, es absolutamente correcto como se ve a continuación:
 
 ![Sumador1Bit](https://github.com/unal-edigital1-lab/lab00-fzambranoc/blob/master/Figuras/Sumador1Bit.PNG)
+
+
+![Sumador4Bits](https://github.com/unal-edigital1-lab/lab00-fzambranoc/blob/master/Figuras/Sumador1Bit.PNG)
