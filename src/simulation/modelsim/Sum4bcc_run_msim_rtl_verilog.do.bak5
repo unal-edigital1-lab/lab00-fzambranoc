@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src {C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src {C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/Sum4bcc.v}
+

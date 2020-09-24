@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/simulation/modelsim
+vsum1bcc
+!s110 1600901447
+!i10b 1
+!s100 kbd>86O=0<2:dcRSLWeg_0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5@?[C]GHBY^77hz4oLZA@1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1599664796
+8C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v
+FC:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v
+!i122 0
+L0 1 17
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1600901446.000000
+!s107 C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src|C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/sum1bcc.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src
+Z6 tCvgOpt 0
+vSum4bcc
+Z7 !s110 1600901448
+!i10b 1
+!s100 iHj[A;CG5YVH`=R=o]5aO3
+R1
+If[k8LeG@H?@fFc]S5Y5NT2
+R2
+R0
+w1600212473
+8C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/Sum4bcc.v
+FC:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/Sum4bcc.v
+!i122 1
+L0 1 15
+R3
+r1
+!s85 0
+31
+!s108 1600901447.000000
+!s107 C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/Sum4bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src|C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/Sum4bcc.v|
+!i113 1
+R4
+R5
+R6
+n@sum4bcc
+vtestbench
+R7
+!i10b 1
+!s100 Z`EVC2D2[L@aFkf:YAFE:0
+R1
+ID1J4C9ng3dScil`gh9@Lh3
+R2
+R0
+w1600212405
+8C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/testbech.v
+FC:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/testbech.v
+!i122 2
+L0 1 29
+R3
+r1
+!s85 0
+31
+!s108 1600901448.000000
+!s107 C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/testbech.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src|C:/Users/Lenovo/Documents/LabDigital/lab00-fzambranoc/src/testbech.v|
+!i113 1
+R4
+R5
+R6
